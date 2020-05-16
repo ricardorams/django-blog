@@ -4,3 +4,4 @@ python:
 install: "pip3 install -r requirement.txt"
 script:
 - SECRET_KEY="whatever" ./manage.py test
+dist: trusty
